@@ -159,12 +159,13 @@ footer {
 }
 
 .projects:nth-child(even) {
-	margin-right: 20px;
+	margin-right: 35px;
 }
 
 .proj-pic {
 	width: 275px;
 	height: auto;
+	opacity: .8;
 }
 
 
@@ -179,4 +180,48 @@ footer {
 	margin-top: -75px;
 	position: absolute;
 	border:none;
+}
+
+.contact-box ul {
+	margin-bottom: 20px;
+	list-style-type: none;
+	margin-left: 0;
+}
+
+.contact-box li {
+	margin-bottom: 20px;
+	margin-left: -40px;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+	display: block;
+	width: 100%;
+	font-size: 24px;
+	color:#777777;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+	height: 35px;
+	border: 1px solid #cccccc;
+	padding: 0 10px;
+	font-size:14px;
+}
+
+textarea {
+	height: 200px;
+}
+
+input[type=submit] {
+	background: #4aaaa5;
+	border: 0 none;
+	color:white;
+	padding: 10px 30px;
+	font-size: 18px;
+
+
 }
