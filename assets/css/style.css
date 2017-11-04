@@ -152,3 +152,31 @@ footer {
   align-items: center;
   border-top: 10px solid #4aaaa5;
 }
+
+.projects {
+	float: left;
+	margin: 20px 0 25px;
+}
+
+.projects:nth-child(even) {
+	margin-right: 20px;
+}
+
+.proj-pic {
+	width: 275px;
+	height: auto;
+}
+
+
+.projects h3 {
+	background-color: #4aaaa5;
+	color: white;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	width: 275px;
+	font-size: 18px;
+	margin-top: -75px;
+	position: absolute;
+	border:none;
+}
